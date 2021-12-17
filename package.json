@@ -1,0 +1,32 @@
+{
+    "name": "word-checker",
+    "version": "1.0.0",
+    "description": "A words checker",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon -e ts --watch '.' --exec ts-node index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Brennon-Oliveira/word-checker.git"
+    },
+    "keywords": [
+        "Word",
+        "checker"
+    ],
+    "author": "Brennon Gabriel de Oliveira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Brennon-Oliveira/word-checker/issues"
+    },
+    "homepage": "https://github.com/Brennon-Oliveira/word-checker#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.4"
+    }
+}
